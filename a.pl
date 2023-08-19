@@ -3,7 +3,7 @@
 Usage: 
 =|load_files( 'https://raw.githubusercontent.com/xpxaxsxi/test/main/a.pl',[]).|=
 
-\*
+*\
 x(hello).
 x(world).
 
