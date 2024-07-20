@@ -1,4 +1,4 @@
-:-module(wasmtst,[x/1]).
+:-module(wasmtst,[x/1,test/1]).
 /** <module> Simple test module for wasm in browser (in the wasm shell demo)
 
 Usage: 
