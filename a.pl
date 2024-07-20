@@ -11,5 +11,6 @@ x(world).
 %in server:
 %use this: library(http/http_cors)
 %set this: set_setting(http:cors,['https://wasm.swi-prolog.org']).
+%call like: wasmtst:test(X)
 test(Data):-
   fetch("http://localhost:5000/hello_world",text,Data).
